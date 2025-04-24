@@ -1,0 +1,9 @@
+$gui // use it in switch node when farm it is enable
+	// use it disable also when you have a farm
+nuke.executing() activating py button in disable when render locally
+
+nuke.executing() // use it in switch when local render activating py button
+note nuke.executing() // the swtich node change to 0 instead of 1
+
+$gui?1:64 // use it for samples in motion bur and you have a farm
+64 if nuke.executing() else 1 // use when you render locally activating py button
